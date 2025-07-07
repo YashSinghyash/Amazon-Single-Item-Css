@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+
+}
+
+.box{
+    height: 800px;
+    /* background-color: rgb(230, 230, 230); */
+}
+.slideview{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+    gap: 4px;
+    font-size: small;
+}
+
+.slideview a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
